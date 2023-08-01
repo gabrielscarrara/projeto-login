@@ -6,3 +6,49 @@
     Lilas: #5f2c82
 */
 
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    display: block; /*Pra ser exibida como um bloco. Visualmente não muda nada */
+    position: absolute; /*Pra colocar no meio da tela*/
+    top: 50%; /*Pra colocar no meio da tela*/
+    left: 50%; /*Pra colocar no meio da tela*/
+    transform: translate(-50%, -50%); /*Pra colocar no meio da tela, fazendo metade chegar pra cima, e metade chegar pra esquerda. Ficando sempre no meio da tela, mesmo se mudar a resolução (tamanho da janela) */
+    overflow: hidden; /*Para que tudo que estiver fora da borda fique escondido*/
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.453); /*Pra botar sombra*/
+
+}
+
+section#login > div#imagem {
+    background:#5f2c82 url(../imagens/pexels-dinnow-9444476.jpg) no-repeat; /*Usei .. pois esta em outra pasta a imagem. No-repeat, para não repetir a imagem */
+    background-size: cover; /*Para a imagem aparecer*/
+    background-position: left; /*Para aparecer a parte mais bonita da imagem*/
+    height: 200px; /*Pra caber na section login*/
+}
+
+section#login > div#formulario {
+    display: block; /*Pra ser exibida como um bloco. Visualmente não muda nada */
+    padding: 10px; 
+}
