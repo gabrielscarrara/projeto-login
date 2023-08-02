@@ -55,3 +55,11 @@ section#login > div#formulario {
     padding: 10px; 
 }
 
+div#formulario > h1 {
+    text-align: center; /*Alinha o título "Login" ao centro. */
+    margin-bottom: 10px; /*Coloca uma margem entre o título "Login e o texto*/
+}
+
+div#formulario > p {
+    font-size: 0.8em; /*Altera o tamanho do texto (diminuindo-o) */
+}
