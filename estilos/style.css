@@ -39,6 +39,9 @@ section#login {
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.453); /*Pra botar sombra*/
 
+    transition: width 0.3s, height 0.3s; /*Para ter uma animação quando mudar o tamanho da tela*/
+    transition-timing-function: ease; /*Suaviza durante a animação*/
+
 }
 
 section#login > div#imagem {
