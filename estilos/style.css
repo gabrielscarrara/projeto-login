@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /*
     Paleta de cores
     Verde: #49a09d
@@ -55,3 +54,4 @@ section#login > div#formulario {
     display: block; /*Pra ser exibida como um bloco. Visualmente não muda nada */
     padding: 10px; 
 }
+
